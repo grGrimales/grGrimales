@@ -1,5 +1,5 @@
 import { createTheme } from "@mui/material";
-import { red } from "@mui/material/colors";
+import { red, common } from "@mui/material/colors";
 
 
 export const darkTheme = createTheme({
@@ -15,16 +15,29 @@ export const darkTheme = createTheme({
       },
 
       components:{
-          MuiAppBar:{
-              defaultProps: {
-                elevation: 0
+          MuiAppBar: {
+            defaultProps: {
+              elevation: 0,
+              position: 'fixed',
+            },
+            styleOverrides: {
+              root: {
+                backgroundColor:common.black ,
+                height: 60, 
+                color: "white"
+
               },
-              styleOverrides:{
-                  root:{
-                      backgroundColor: '#4a148c',
-                     
-                  }
-              }
-          }
+            }
+          },
+          MuiLink: {
+            defaultProps: {
+              underline: 'none',
+            },
+            styleOverrides:{
+                root: {
+                    color: "white"
+                }
+            }
+          },
       }
   })

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { FC, PropsWithChildren } from "react";
+import { Navbar } from './Navbar';
 
 
 
@@ -35,9 +36,18 @@ export const Layout: FC<PropsWithChildren<Props>> = ({ children, title, pageDesc
                 />
             </Head>
 
+            <nav>
+                <Navbar />
+            </nav>
 
 
-            <main>{children}</main>
+            <main
+                style={{
+                    margin: '80px auto',
+                    maxWidth: '1440px',
+                    padding: '0px 30px'
+                }}
+            >{children}</main>
         </>
     );
 };
