@@ -1,15 +1,28 @@
-import { AppBar, Toolbar, Button, Box, Link } from '@mui/material';
+import { AppBar, Toolbar, Button, Box, Link, IconButton, CardActionArea, CardMedia } from '@mui/material';
 import NextLink from 'next/link';
+
 
 export const Navbar = () => {
     return (
         <AppBar>
             <Toolbar>
 
+                <NextLink href='/' passHref>
+                    {/* llevar al apagina del producto */}
+                    <Link>
+                        <CardActionArea>
+                            <CardMedia image='/images/logo.png'
+                                component='img'
+                                sx={{ borderRadius: '5px' }}
+                            />
+                        </CardActionArea>
+                    </Link>
+                </NextLink>
+
                 <Box flex={1} />
 
                 <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-                    <NextLink href='/about' passHref>
+                    <NextLink href='/' passHref>
                         <Link>
                             <Button>About Me</Button>
                         </Link>
@@ -20,7 +33,7 @@ export const Navbar = () => {
                         </Link>
                     </NextLink>
                     <NextLink href='/contacto' passHref>
-                        <Link>
+                        <Link color="secondary">
                             <Button>Contacto</Button>
                         </Link>
                     </NextLink>
