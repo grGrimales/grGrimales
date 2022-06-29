@@ -1,7 +1,7 @@
-import { createTheme } from "@mui/material";
+import { createTheme, responsiveFontSizes } from "@mui/material";
 import { red, common } from "@mui/material/colors";
 
-export const darkTheme = createTheme({
+export const darkTheme =  responsiveFontSizes(createTheme({
   palette: {
     mode: "dark",
 
@@ -42,4 +42,4 @@ export const darkTheme = createTheme({
       },
     },
   },
-});
+}));
