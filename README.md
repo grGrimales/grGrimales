@@ -1,34 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 👋 Olá! | Hello! | ¡Hola!
+## Grediana Rojas
 
-## Getting Started
+**Agilidade moderna e solidez corporativa.** Desenvolvedora focada em criar interfaces eficientes e integrar lógica de negócios robusta.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### 🇧🇷 Português
+**Além do código: quem sou e como trabalho**
+Sou uma desenvolvedora apaixonada por criar interfaces eficientes e escaláveis. Minha abordagem técnica foca no frontend, integrando boas práticas de engenharia e soluções corporativas.
+- **Versatilidade:** Construo experiências modernas com **React/Next.js** **Angular** **NestJS** ou desenvolvo soluções empresariais complexas com **SAPUI5 e C#**.
+- 📍 Baseada em Florianópolis, SC.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### 🇺🇸 English
+**Beyond the code: who I am and how I work**
+I am a developer passionate about creating efficient and scalable interfaces. My technical approach focuses on the frontend, integrating engineering best practices and enterprise solutions.
+- **Versatility:** I build modern experiences with **React/Next.js** **Angular** **NestJS** or develop complex enterprise solutions using **SAPUI5 and C#**.
+- 📍 Based in Florianópolis, Brazil.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+---
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### 🇪🇸 Español
+**Más allá del código: quién soy y cómo trabajo**
+Soy una desarrolladora apasionada por crear interfaces eficientes y escalables. Mi enfoque técnico se centra en el frontend, integrando buenas prácticas de ingeniería y soluciones corporativas.
+- **Versatilidad:** Construyo experiencias modernas con **React/Next.js** **Angular** **NestJS** o desarrollo soluciones empresariales complejas con **SAPUI5 y C#**.
+- 📍 Residente en Florianópolis, Brasil.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Stack Tecnológico & Skills
+- **Frontend:** React / Next.js | SAPUI5 | TypeScript | HTML5 / CSS3
+- **Backend:** C# / .NET
+- **Ferramentas:** Git / GitHub | SQL Server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📂 Portfólio Completo
+👉 **[Grediana.dev](https://grediana-portfolio.netlify.app/)**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=grGrimales&show_icons=true&theme=nord)
