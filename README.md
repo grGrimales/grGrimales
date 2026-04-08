@@ -35,7 +35,7 @@ Soy una desarrolladora apasionada por crear interfaces eficientes y escalables. 
 - **Ferramentas:** Git / GitHub | SQL Server
 
 ## 📂 Portfólio Completo
-👉 **[Grediana.dev](https://grediana-portfolio.netlify.app/](https://portfolio-grediana-rojas-grimales.vercel.app/)**
+👉 **[Grediana.dev](https://portfolio-grediana-rojas-grimales.vercel.app/)**
 
 ---
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=grGrimales&show_icons=true&theme=nord)
